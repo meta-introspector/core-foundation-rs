@@ -30,7 +30,7 @@ pub struct CFTreeContext {
     pub copyDescription: CFTreeCopyDescriptionCallBack,
 }
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFTree.h
      */

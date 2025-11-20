@@ -29,7 +29,7 @@ pub const kCFLocaleLanguageDirectionRightToLeft: CFLocaleLanguageDirection = 2;
 pub const kCFLocaleLanguageDirectionTopToBottom: CFLocaleLanguageDirection = 3;
 pub const kCFLocaleLanguageDirectionBottomToTop: CFLocaleLanguageDirection = 4;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFLocale.h
      */

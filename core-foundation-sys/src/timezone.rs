@@ -32,7 +32,7 @@ pub const kCFTimeZoneNameStyleShortDaylightSaving: CFTimeZoneNameStyle = 3;
 pub const kCFTimeZoneNameStyleGeneric: CFTimeZoneNameStyle = 4;
 pub const kCFTimeZoneNameStyleShortGeneric: CFTimeZoneNameStyle = 5;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFTimeZone.h
      */

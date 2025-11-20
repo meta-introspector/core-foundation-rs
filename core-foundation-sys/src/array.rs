@@ -36,7 +36,7 @@ pub struct __CFArray(c_void);
 pub type CFArrayRef = *const __CFArray;
 pub type CFMutableArrayRef = *mut __CFArray;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFArray.h
      */

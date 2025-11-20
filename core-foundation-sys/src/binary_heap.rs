@@ -43,7 +43,7 @@ pub struct CFBinaryHeapCallBacks {
 
 pub type CFBinaryHeapApplierFunction = extern "C" fn(val: *const c_void, context: *const c_void);
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFBinaryHeap.h
      */

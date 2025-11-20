@@ -21,7 +21,7 @@ pub type CFDataSearchFlags = CFOptionFlags;
 pub const kCFDataSearchBackwards: CFDataSearchFlags = 1usize << 0;
 pub const kCFDataSearchAnchored: CFDataSearchFlags = 1usize << 1;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFData.h
      */

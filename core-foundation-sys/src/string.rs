@@ -206,7 +206,7 @@ pub fn CFStringInitInlineBuffer(str: CFStringRef, buf: *mut CFStringInlineBuffer
 pub fn CFStringGetCharacterFromInlineBuffer(buf: *mut CFStringInlineBuffer, idx: CFIndex) -> UniChar;
 */
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFString.h
      */

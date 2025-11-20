@@ -43,7 +43,7 @@ pub enum __CFNumber {}
 
 pub type CFNumberRef = *const __CFNumber;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFNumber.h
      */

@@ -37,7 +37,7 @@ pub struct CFFileDescriptorContext {
     pub copyDescription: Option<extern "C" fn(info: *const c_void) -> CFStringRef>,
 }
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFFileDescriptor.h
      */

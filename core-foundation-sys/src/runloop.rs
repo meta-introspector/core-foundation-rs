@@ -120,7 +120,7 @@ pub struct __CFRunLoopTimer(c_void);
 
 pub type CFRunLoopTimerRef = *mut __CFRunLoopTimer;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFRunLoop.h
      */

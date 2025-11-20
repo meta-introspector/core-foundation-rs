@@ -19,7 +19,7 @@ pub struct __CFAttributedString(c_void);
 pub type CFAttributedStringRef = *const __CFAttributedString;
 pub type CFMutableAttributedStringRef = *mut __CFAttributedString;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFAttributedString.h
      */

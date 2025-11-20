@@ -39,7 +39,7 @@ pub struct CFBagCallBacks {
 
 pub type CFBagApplierFunction = extern "C" fn(value: *const c_void, context: *mut c_void);
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFBag.h
      */

@@ -72,7 +72,7 @@ pub const kCFSocketAutomaticallyReenableWriteCallBack: CFOptionFlags = 8;
 pub const kCFSocketLeaveErrors: CFOptionFlags = 64;
 pub const kCFSocketCloseOnInvalidate: CFOptionFlags = 128;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFSocket.h
      */

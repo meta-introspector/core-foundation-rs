@@ -19,7 +19,7 @@ pub type CFDateRef = *const __CFDate;
 pub type CFTimeInterval = f64;
 pub type CFAbsoluteTime = CFTimeInterval;
 
-extern "C" {
+unsafe extern "C" {
     pub static kCFAbsoluteTimeIntervalSince1904: CFTimeInterval;
     pub static kCFAbsoluteTimeIntervalSince1970: CFTimeInterval;
 

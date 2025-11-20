@@ -18,7 +18,7 @@ pub type CFBitVectorRef = *const __CFBitVector;
 pub type CFMutableBitVectorRef = *mut __CFBitVector;
 pub type CFBit = UInt32;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFBitVector.h
      */

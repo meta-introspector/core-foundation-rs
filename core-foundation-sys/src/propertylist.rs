@@ -31,7 +31,7 @@ pub const kCFPropertyListReadUnknownVersionError: CFIndex = 3841;
 pub const kCFPropertyListReadStreamError: CFIndex = 3842;
 pub const kCFPropertyListWriteStreamError: CFIndex = 3851;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFPropertyList.h
      */

@@ -44,7 +44,7 @@ pub const kCFDateFormatterFullStyle: CFDateFormatterStyle = 4;
 //pub const kCFISO8601DateFormatWithFullTime: CFISO8601DateFormatOptions = kCFISO8601DateFormatWithTime | kCFISO8601DateFormatWithColonSeparatorInTime | kCFISO8601DateFormatWithTimeZone | kCFISO8601DateFormatWithColonSeparatorInTimeZone; // macosx(10.12)+
 //pub const kCFISO8601DateFormatWithInternetDateTime: CFISO8601DateFormatOptions = kCFISO8601DateFormatWithFullDate | kCFISO8601DateFormatWithFullTime; // macosx(10.12)+
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFDateFormatter.h
      */

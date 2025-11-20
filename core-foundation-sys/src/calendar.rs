@@ -36,7 +36,7 @@ pub const kCFCalendarUnitYearForWeekOfYear: CFCalendarUnit = 1 << 14;
 
 pub const kCFCalendarComponentsWrap: CFOptionFlags = 1 << 0;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFCalendar.h
      */

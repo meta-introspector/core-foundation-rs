@@ -82,7 +82,7 @@ pub const kCFBookmarkResolutionWithoutUIMask: CFURLBookmarkResolutionOptions = (
 pub const kCFBookmarkResolutionWithoutMountingMask: CFURLBookmarkResolutionOptions =
     (1u32 << 9) as usize;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFURL.h
      */

@@ -97,7 +97,7 @@ pub struct CFXMLParserContext {
     pub copyDescription: CFXMLParserCopyDescriptionCallBack,
 }
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFXMLParser.h
      */

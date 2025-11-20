@@ -38,7 +38,7 @@ pub struct CFUUIDBytes {
     pub byte15: u8,
 }
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFUUID.h
      */

@@ -68,7 +68,7 @@ pub static kCFBundleExecutableArchitectureX86_64: c_uint = 0x01000007;
 pub static kCFBundleExecutableArchitecturePPC64: c_uint = 0x01000012;
 //pub static kCFBundleExecutableArchitectureARM64: c_uint = 0x0100000c; //macos(11.0)+
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFBundle.h
      */

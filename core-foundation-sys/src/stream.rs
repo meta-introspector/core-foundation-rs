@@ -82,7 +82,7 @@ pub type CFWriteStreamClientCallBack = extern "C" fn(
     clientCallBackInfo: *mut c_void,
 );
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFStream.h
      */

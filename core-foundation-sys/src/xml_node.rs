@@ -125,7 +125,7 @@ pub struct CFXMLEntityReferenceInfo {
     pub entityType: CFXMLEntityTypeCode,
 }
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFXMLNode.h
      */

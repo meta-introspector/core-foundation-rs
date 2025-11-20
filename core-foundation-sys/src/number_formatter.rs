@@ -55,7 +55,7 @@ pub const kCFNumberFormatterPadAfterPrefix: CFNumberFormatterPadPosition = 1;
 pub const kCFNumberFormatterPadBeforeSuffix: CFNumberFormatterPadPosition = 2;
 pub const kCFNumberFormatterPadAfterSuffix: CFNumberFormatterPadPosition = 3;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFNumberFormatter.h
      */

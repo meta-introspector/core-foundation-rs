@@ -54,7 +54,7 @@ pub fn CFUserNotificationPopUpSelection(n: CFIndex) -> CFOptionFlags {
     (n << 24) as CFOptionFlags
 }
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFUserNotification.h
      */

@@ -35,7 +35,7 @@ pub const kCFURLEnumeratorEnd: CFURLEnumeratorOptions = 2;
 pub const kCFURLEnumeratorError: CFURLEnumeratorOptions = 3;
 pub const kCFURLEnumeratorDirectoryPostOrderSuccess: CFURLEnumeratorOptions = 4;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFURLEnumerator.h
      */

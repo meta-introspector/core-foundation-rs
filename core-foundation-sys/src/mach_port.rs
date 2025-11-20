@@ -31,7 +31,7 @@ pub struct CFMachPortContext {
     pub copyDescription: extern "C" fn(info: *const c_void) -> CFStringRef,
 }
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFMachPort.h
      */

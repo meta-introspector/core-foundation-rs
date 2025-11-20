@@ -34,7 +34,7 @@
     ),
     link(name = "CoreFoundation", kind = "framework")
 )]
-extern "C" {}
+unsafe extern "C" {}
 
 pub mod array;
 pub mod attributed_string;

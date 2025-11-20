@@ -37,7 +37,7 @@ pub const kCFStringTokenizerUnitWordBoundary: CFOptionFlags = 4;
 pub const kCFStringTokenizerAttributeLatinTranscription: CFOptionFlags = 1 << 16;
 pub const kCFStringTokenizerAttributeLanguage: CFOptionFlags = 1 << 17;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFStringTokenizer.h
      */

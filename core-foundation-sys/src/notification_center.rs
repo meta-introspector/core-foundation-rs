@@ -37,7 +37,7 @@ pub const CFNotificationSuspensionBehaviorDeliverImmediately: CFNotificationSusp
 pub const kCFNotificationDeliverImmediately: CFOptionFlags = 1usize << 0;
 pub const kCFNotificationPostToAllSessions: CFOptionFlags = 1usize << 1;
 
-extern "C" {
+unsafe extern "C" {
     /*
      *  CFNotificationCenter.h
      */

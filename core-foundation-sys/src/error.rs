@@ -19,7 +19,7 @@ pub struct __CFError(c_void);
 pub type CFErrorRef = *mut __CFError;
 pub type CFErrorDomain = CFStringRef;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFError.h
      */

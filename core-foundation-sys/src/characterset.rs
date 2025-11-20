@@ -37,7 +37,7 @@ pub struct __CFCharacterSet(c_void);
 pub type CFCharacterSetRef = *const __CFCharacterSet;
 pub type CFMutableCharacterSetRef = *mut __CFCharacterSet;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFCharacterSet.h
      */

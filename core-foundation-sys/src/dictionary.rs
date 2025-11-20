@@ -51,7 +51,7 @@ pub struct __CFDictionary(c_void);
 pub type CFDictionaryRef = *const __CFDictionary;
 pub type CFMutableDictionaryRef = *mut __CFDictionary;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFDictionary.h
      */

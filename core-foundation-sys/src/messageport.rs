@@ -49,7 +49,7 @@ pub const kCFMessagePortBecameInvalidError: SInt32 = -5;
 pub struct __CFMessagePort(c_void);
 pub type CFMessagePortRef = *mut __CFMessagePort;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFMessagePort.h
      */

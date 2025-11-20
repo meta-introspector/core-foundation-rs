@@ -32,7 +32,7 @@ pub type CFPlugInInstanceGetInterfaceFunction = extern "C" fn(
 ) -> Boolean;
 pub type CFPlugInInstanceDeallocateInstanceDataFunction = extern "C" fn(instanceData: *mut c_void);
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFPlugIn.h
      */

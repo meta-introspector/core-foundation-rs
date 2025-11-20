@@ -33,7 +33,7 @@ pub const kCFFileSecurityClearGroupUUID: CFFileSecurityClearOptions = 1 << 4;
 #[cfg(feature = "mac_os_10_8_features")]
 pub const kCFFileSecurityClearAccessControlList: CFFileSecurityClearOptions = 1 << 5;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFFileSecurity.h
      */

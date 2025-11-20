@@ -13,7 +13,7 @@ use crate::dictionary::CFDictionaryRef;
 use crate::propertylist::CFPropertyListRef;
 use crate::string::CFStringRef;
 
-extern "C" {
+unsafe extern "C" {
     /*
      * CFPreferences.h
      */
